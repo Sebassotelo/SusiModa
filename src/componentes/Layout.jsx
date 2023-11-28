@@ -22,8 +22,11 @@ function Layout({ children, title }) {
   return (
     <div style={{ display: "grid" }}>
       <Head>
-        <title>SAGI Lencería | Home</title>
-        <meta name="description" content="SAGI Lenceria  |  Moda interior❤️" />
+        <title>Susi Modista | Home</title>
+        <meta
+          name="description"
+          content="Susi Modista  | Toallas y Modista ♥"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

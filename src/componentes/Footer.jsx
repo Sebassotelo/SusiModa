@@ -20,7 +20,7 @@ function Footer() {
         <div className={style.footer}>
           <div className={style.text}>
             <h3>MEDIOS DE PAGO</h3>
-            <p>MercadoPago y Efectivo</p>
+            <p>Transferencias y Efectivo</p>
             <h3>MEDIOS DE ENVIOS</h3>
             <p>🚐Hacemos envíos</p>
           </div>

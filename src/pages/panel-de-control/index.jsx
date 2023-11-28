@@ -46,7 +46,7 @@ function Index() {
   return (
     <>
       <Head>
-        <title>SAGI Lencería | Panel de Control</title>
+        <title>Susi Modista | Panel de Control</title>
       </Head>
       <div className={style.container}>
         {context.loader ? (

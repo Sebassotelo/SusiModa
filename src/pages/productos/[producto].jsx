@@ -102,7 +102,7 @@ function ProductoRuta() {
           {producto ? (
             <>
               <Head>
-                <title>SAGI Lencería | {producto.title}</title>
+                <title>Susi Modista | {producto.title}</title>
               </Head>
               <div className={style.container}>
                 <div className={style.container__item}>

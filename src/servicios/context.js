@@ -23,7 +23,7 @@ function Context(props) {
   const [carrito, setCarrito] = useState([]);
   const [actuCarrito, setActuCarrito] = useState(false);
   const [loader, setLoader] = useState(false);
-  const urlLogo = "https://i.imgur.com/6LRIe3A.png";
+  const urlLogo = "https://i.imgur.com/zy1Xa6q.png";
 
   const auth = getAuth(firebaseApp);
   const firestore = getFirestore(firebaseApp);
@@ -77,12 +77,12 @@ function Context(props) {
   };
 
   const setearLocalStorage = () => {
-    localStorage.setItem("carritoJaime", JSON.stringify(carrito));
+    localStorage.setItem("carritoSusi", JSON.stringify(carrito));
   };
 
   const recuperarStorage = () => {
     // Obtener la cadena de texto guardada en el localStorage con la clave "carrito"
-    const carritoString = localStorage.getItem("carritoJaime");
+    const carritoString = localStorage.getItem("carritoSusi");
 
     // Si existe la cadena de texto, convertirla en un objeto del carrito
     if (carritoString) {
