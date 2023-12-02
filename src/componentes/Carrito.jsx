@@ -288,7 +288,7 @@ function Carrito({ showCarrito, show }) {
               style={{ backgroundColor: "rgb(2, 190, 18)" }}
             >
               <a
-                href={`https://api.whatsapp.com/send?phone=5493794256715&text=${pedido}`}
+                href={`https://api.whatsapp.com/send?phone=5493794636543&text=${pedido}`}
                 target={"_blank"}
               >
                 Ir a WhatsApp

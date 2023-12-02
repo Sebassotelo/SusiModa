@@ -27,14 +27,14 @@ function Footer() {
           <div className={style.contacto}>
             <h3>NUESTRAS REDES SOCIALES</h3>
             <div className={style.icon__container}>
-              <a
+              {/* <a
                 href="https://www.instagram.com/sagi_lenceria"
                 target={"_blank"}
               >
                 <AiOutlineInstagram className={style.icon} />
-              </a>
+              </a> */}
               <a
-                href="https://api.whatsapp.com/send/?phone=5493794256715&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=5493794636543&type=phone_number&app_absent=0"
                 target={"_blank"}
               >
                 <AiOutlineWhatsApp className={style.icon} />
@@ -47,7 +47,7 @@ function Footer() {
           </div> */}
             <div className={style.contacto__item}>
               <AiOutlinePhone />
-              <p>379-4256715</p>
+              <p>379-4636543</p>
             </div>
             <div className={style.contacto__item}>
               <FaMapMarkerAlt /> <p href="">Corrientes -Capital</p>
